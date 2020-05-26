@@ -3,11 +3,11 @@
 DSC160 Data Science and the Arts - Final Project - Generative Arts - Spring 2020
 
 Project Team Members: 
-- Firstname Lastname1, name1@ucsd.edu
-- Firstname Lastname2, name2@ucsd.edu
-- Firstname Lastname3, name3@ucsd.edu
-- Firstname Lastname4, name4@ucsd.edu
-- Firstname Lastname5, name5@ucsd.edu
+- Iman Nematollahi, imnemato@ucsd.edu
+- Soon Gi Shin, sgs008@ucsd.edu
+- Justin Lee, jul290@ucsd.edu
+- Jaskaranpal Singh, jas137@ucsd.edu
+- Dan Ngo, dmngo@ucsd.edu
 
 ## Abstract
 
