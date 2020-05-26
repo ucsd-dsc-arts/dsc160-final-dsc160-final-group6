@@ -24,7 +24,7 @@ https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to
 This reference shows us the basics of how to style transfer using neural networks.
 
 https://www.pyimagesearch.com/2018/08/27/neural-style-transfer-with-opencv/
-This reference above is a project of style transfer performed on several images and also a live webcam. I think this project is very interesting and could be very influential for us and it could potentially help us learn how to apply style transfers onto a live video, through our own webcams.
+This reference above is a project of style transfer performed on several images and also a live webcam. We think that this project is very interesting and could be very influential for us as it could potentially help us learn how to apply style transfers onto a live video, through our own webcams.
 
 https://nico-opendata.jp/publish/neural-style-synthesizer/neural-style-synthesizer-slides.pdf
 Reference for multiple image style transfer and how to effectively average the styles of multiple images and apply that average to a single image.
