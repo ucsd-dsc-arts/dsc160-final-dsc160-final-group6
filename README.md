@@ -21,7 +21,7 @@ Project Team Members:
 References
 
 https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee
-This reference shows us the basics of how to style transfer using neural networks
+This reference shows us the basics of how to style transfer using neural networks.
 
 https://www.pyimagesearch.com/2018/08/27/neural-style-transfer-with-opencv/
 This reference above is a project of style transfer performed on several images and also a live webcam. I think this project is very interesting and could be very influential for us and it could potentially help us learn how to apply style transfers onto a live video, through our own webcams.
