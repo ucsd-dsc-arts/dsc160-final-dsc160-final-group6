@@ -18,14 +18,18 @@ Project Team Members:
   
   Some other concerns that we have is that our style transfer will not be able to create a meaningful or artistically pleasing image. Since the coronavirus artistic representations have been created by different artists, we are worried that when we train our model, our model will not be able to capture the style of the images that it is trained on. As such, we plan to experiment with several different images and image styles to help establish our narrative better.
 
-References 
+References
+
 https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee
+
 This reference shows us the basics of how to style transfer using neural networks
 
 https://www.pyimagesearch.com/2018/08/27/neural-style-transfer-with-opencv/
+
 This reference above is a project of style transfer performed on several images and also a live webcam. I think this project is very interesting and could be very influential for us and it could potentially help us learn how to apply style transfers onto a live video, through our own webcams.
 
 https://nico-opendata.jp/publish/neural-style-synthesizer/neural-style-synthesizer-slides.pdf
+
 Reference for multiple image style transfer and how to effectively average the styles of multiple images and apply that average to a single image.
 
 
