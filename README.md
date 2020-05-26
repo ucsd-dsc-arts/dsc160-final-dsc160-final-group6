@@ -11,19 +11,21 @@ Project Team Members:
 
 ## Abstract
 
-(10 points) 
+  Since the rise of the COVID-19 pandemic, there has been a significant change in the way that many people view the world. Though there are those who believe that the pandemic is nothing but a hoax, a greater majority has become extremely fearful of the potential threat that the coronavirus poses. Being in quarantine has exacerbated much of these fears as well, as many are finding it to be more and more difficult to leave the house without feeling as if they are risking their lives. As such, for our project, we wanted to capture a bit of this feeling of uneasiness to illustrate to future generations what it was like to live during these times. We will do this mainly through the use of style transfer techniques, which will take the style of images of the coronavirus and apply them to images of things that one might see in their everyday life. We hope that people later on will be able to study and reference the narrative that we intend to create here in this project as a means of gaining insight into life during the COVID-19 pandemic.
+  As mentioned previously, to create these images, we intend to use the style transfer technique. We will be training our model using artistic representations of the coronavirus. Then, we will transfer the style of these images onto everyday objects and recognizable locations. To do this, we will be using a convolutional neural network similar to how style transfer was shown to be done in class. Hopefully, by doing this, it will illustrate the gravity of the situation since people seem to be forgetting about the consequences of not social distancing.
+  For our reach goal, we will try to apply the coronavirus style transfer using a live visual input. If we are able to achieve this, we can apply this style transfer to live input, which might further show people the direness of the current situation. We found an article showing how to do this, but we do not currently know the feasibility of applying this technique with our given time.
+  Some other concerns that we have is that our style transfer will not create a meaningful or artistically pleasing image. Since the coronavirus artistic representation is done by different artists, we are worried that when we train our model that our model will not be able to capture the style of the images that we are training our model with. We plan to experiment with several different images and style images to help establish our narrative better.
 
-For the project proposal, please write a short abstact addressing the questions below. You need to replace the entire contents of this section with one to two paragraphs addressing the following:
+References 
+https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee
+This reference shows us the basics of how to style transfer using neural networks
 
-- What is your concept for a generative art project? 
-- What methods/networks/techniques will you employ (include links to technical precedents/code bases)
-- What training data (if any) will you use for your project? 
-- What kind of results do you hope that your system will produce?
-- How will you present your result/what form will your output take?
-- What if any challenges to you think may arise as you are working with this?
-- How are you expanding on topics we have covered in class? 
-- Why is it interesting? (personally, culturally, politically, other)
-- List three papers / art projects that are references for this work.
+https://www.pyimagesearch.com/2018/08/27/neural-style-transfer-with-opencv/
+This reference above is a project of style transfer performed on several images and also a live webcam. I think this project is very interesting and could be very influential for us and it could potentially help us learn how to apply style transfers onto a live video, through our own webcams.
+
+https://nico-opendata.jp/publish/neural-style-synthesizer/neural-style-synthesizer-slides.pdf
+Reference for multiple image style transfer and how to effectively average the styles of multiple images and apply that average to a single image.
+
 
 ## Data and Model
 
