@@ -1,4 +1,4 @@
-# Project Title
+# Through the Covid-19 Lens
 
 DSC160 Data Science and the Arts - Final Project - Generative Arts - Spring 2020
 
