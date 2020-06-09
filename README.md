@@ -68,7 +68,16 @@ The script took a lot of influence from style_transfer_keras.ipynb, which is an 
 In trying to obtain our desired result, we tried inputting different numbers of iterations for optimization. We noticed that as we increased the number of iterations, the input image that we are trying to transfer a specific style onto takes more of the form of the COVID-19 images’ attributes. We took this into account during our experimentation as we wanted it to be overtly obvious that our pictures were COVID-19 related. However, at the same time, we also wanted our resulting images to be recognizable in terms of the locations that they originally captured. Thus, we did not want to increase the number of iterations too much. We found that 20 iterations was a happy medium for most of our images. Here are some of the interesting results we found using different styles.
 
 **Original**
-!(https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/bases/beach.jpeg)
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/bases/beach.jpeg" width="40%" height="40%" title="beach">
+
+**Style**
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/styles/cv.jpg" width="40%" height="40%" title="cv">
+
+**Result**
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/results/result_beach_cv.png
+" width="40%" height="40%" title="beach_cv">
+
+One of the base images that we decided to use was that of a crowded beach, something that used to be a common sight before the coronavirus pandemic. We performed style transfer on this image, using a different image of a rendering of the actual COVID-19 virus. The resulting image can be seen above. In the generated image, we can see that the style transfer seems to have replaced all of the people that were captured in the original image with black silhouettes outlined in red, similar to what thermal imaging might show. Some individuals from the base photo also now appear to be translucent in the generated image, which gives them a ghost-like appearance. The people highlighted in red also establish a violent and threatening mood. In general, applying the style transfer onto the image of the beach definitely gives it a more ominous, dangerous feel. 
 
 ## Discussion
 
