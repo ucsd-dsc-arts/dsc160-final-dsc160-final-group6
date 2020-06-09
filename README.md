@@ -68,16 +68,60 @@ The script took a lot of influence from style_transfer_keras.ipynb, which is an 
 In trying to obtain our desired result, we tried inputting different numbers of iterations for optimization. We noticed that as we increased the number of iterations, the input image that we are trying to transfer a specific style onto takes more of the form of the COVID-19 images’ attributes. We took this into account during our experimentation as we wanted it to be overtly obvious that our pictures were COVID-19 related. However, at the same time, we also wanted our resulting images to be recognizable in terms of the locations that they originally captured. Thus, we did not want to increase the number of iterations too much. We found that 20 iterations was a happy medium for most of our images. Here are some of the interesting results we found using different styles.
 
 **Original**
+
 <img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/bases/beach.jpeg" width="40%" height="40%" title="beach">
 
 **Style**
+
 <img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/styles/cv.jpg" width="40%" height="40%" title="cv">
 
 **Result**
-<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/results/result_beach_cv.png
-" width="40%" height="40%" title="beach_cv">
+
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/results/result_beach_cv.png" width="40%" height="40%" title="beach_cv">
 
 One of the base images that we decided to use was that of a crowded beach, something that used to be a common sight before the coronavirus pandemic. We performed style transfer on this image, using a different image of a rendering of the actual COVID-19 virus. The resulting image can be seen above. In the generated image, we can see that the style transfer seems to have replaced all of the people that were captured in the original image with black silhouettes outlined in red, similar to what thermal imaging might show. Some individuals from the base photo also now appear to be translucent in the generated image, which gives them a ghost-like appearance. The people highlighted in red also establish a violent and threatening mood. In general, applying the style transfer onto the image of the beach definitely gives it a more ominous, dangerous feel. 
+
+**Original**
+
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/bases/casino.png" width="40%" height="40%" title="casino">
+
+**Style**
+
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/styles/virus2.jpg" width="40%" height="40%" title="virus2">
+
+**Result**
+
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/results/result_casino_virus2.png" width="40%" height="40%" title="casino_virus2">
+
+Another one of the base images that we used was this picture of a relatively uncrowded casino, taken somewhat recently to serve as an example of some businesses deciding to reopen, perhaps prematurely. We performed a style transfer on the image, using a rendering of what the COVID-19 virus may look like in the bloodstream. The resulting image, displayed above, was interesting in that the tone and feel of the image was completely different from that of the many of the other style transferred images, including the first one that we discussed above. Rather than being off-putting or “dangerous”, this style-transferred image gave off a more “cartoony” feel. One could almost imagine the image created here being displayed in an art gallery or perhaps appearing in a scene from Osmosis Jones. In general, this style transfer definitely gave off a more artistic vibe more so than did most of the other style transfers that were generated in this project. 
+
+**Original**
+
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/bases/testing.jpg" width="40%" height="40%" title="testing">
+
+**Style**
+
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/styles/antibodies.jpg" width="40%" height="40%" title="antibodies">
+
+**Result**
+
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/results/result_testing_antibodies.png" width="40%" height="40%" title="testing_antibodies">
+
+The base image for this style transfer is one that depicts the distribution of virus testing kits using an image of antibodies as the style template. In the original image, the amount of protective gear being worn by the health official represents the need for safety, but consequently it also corresponds to the presence of danger. On the other hand, the image of the antibodies’ blue color attempts to shed a more positive outlook or feel to the image, as antibodies generally tend to be beneficial, and we can see that this is so in the generated image. We can also see that because the antibodies consist of smaller spherical particles that are bonded together, there are many objects in the resulting image that look as if they consist of many small circular components. This is best exemplified through the health official’s face shield as it appears to be entirely made of such particles. And lastly, we can also see that the style transfer process has much difficulty in dealing with the sky as it attempts to texture the shadows of the sky in the background.
+
+**Original**
+
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/bases/earth.jpg" width="40%" height="40%" title="earth">
+
+**Style**
+
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/styles/virus.jpg" width="40%" height="40%" title="virus">
+
+**Result**
+
+<img src="https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/results/result_earth_virus.png" width="40%" height="40%" title="earth_virus">
+
+The base image for this style transfer is a picture of the Earth which uses a much smoother representation of the coronavirus as its style template. As you may know, the Earth is something that is familiar to everyone simply because it is our home. It is the only place that we know is able to sustain life, and because life exists here, viruses exist as well to infect it. As such, looking at the resulting image, we can see that it is essentially covered in splotches, showing that the neural network heavily favored the protein spikes of the virus during the style transfer. What is also interesting is that the splotches were applied to the image in such a way that did not construct the Earth with the anatomy of the virus nor did it make the Earth look like the virus. Instead, the resulting image is much more reminiscent of microbes under a microscope. The splotches that are present in the entire image has the effect of making the Earth look contaminated, which is exactly how people perceive it now during this time.
 
 ## Discussion
 
