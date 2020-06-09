@@ -17,19 +17,6 @@ As mentioned previously, to create these images, we intend to use the style tran
 Some other concerns that we have is that our style transfer will not be able to create a meaningful or artistically pleasing image. Since the coronavirus artistic representations have been created by different artists, we are worried that when we train our model, our model will not be able to capture the style of the images that it is trained on. As such, we plan to experiment with several different images and image styles to help establish our narrative better.
 
 
-References
-
-https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee
-This reference shows us the basics of how to style transfer using neural networks.
-
-https://www.pyimagesearch.com/2018/08/27/neural-style-transfer-with-opencv/
-This reference above is a project of style transfer performed on several images and also a live webcam. We think that this project is very interesting and could be very influential for us as it could potentially help us learn how to apply style transfers onto a live video, through our own webcams.
-
-https://nico-opendata.jp/publish/neural-style-synthesizer/neural-style-synthesizer-slides.pdf
-Reference for multiple image style transfer and how to effectively average the styles of multiple images and apply that average to a single image.
-
-
-
 ## Data and Model
 
 In choosing our model, we decided that using a CNN, or convolutional neural network, would be most appropriate for our task as we are attempting to apply style transfer to a set of images, and CNNs are most commonly associated with analyzing visual imagery. For the most part, we followed the structure of the style_transfer_keras.ipynb notebook, which demonstrated style transfer using tensorflow. 
@@ -138,20 +125,20 @@ For the future, we would like to implement a real-time style transfer tool. We w
 
 ## Team Roles
 
-Iman Nematollahi: Data, Code, part of Discussion
-Justin Lee: Part of Discussion, Result, and Slides
-Soon Gi Shin: Abstract, Proofreading, part of Results, part of Discussion
-Jaskaranpal Singh: Discussion, Result, and Slides
-Dan Ngo: Discussion, Results, Slides
+- Iman Nematollahi: Data, Code, part of Discussion
+- Justin Lee: Part of Discussion, Result, and Slides
+- Soon Gi Shin: Abstract, Proofreading, part of Results, part of Discussion
+- Jaskaranpal Singh: Discussion, Result, and Slides
+- Dan Ngo: Discussion, Results, Slides
 
 ## Technical Notes and Dependencies
 
-See imports in .py file
-Unzipped Images folder and .py file must be in the same directory in order to run properly.
+- See imports in .py file
+- Unzipped Images folder and .py file must be in the same directory in order to run properly.
 
 ## Reference
 
-style transfer notebook: https://github.com/roberttwomey/dsc160-code/blob/master/examples/style_transfer_tensorflow/style_transfer_keras.ipynb
+https://github.com/roberttwomey/dsc160-code/blob/master/examples/style_transfer_tensorflow/style_transfer_keras.ipynb
 
 https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee
 
