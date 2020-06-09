@@ -65,13 +65,10 @@ The script took a lot of influence from style_transfer_keras.ipynb, which is an 
 
 ## Results
 
-(30 points) 
+In trying to obtain our desired result, we tried inputting different numbers of iterations for optimization. We noticed that as we increased the number of iterations, the input image that we are trying to transfer a specific style onto takes more of the form of the COVID-19 images’ attributes. We took this into account during our experimentation as we wanted it to be overtly obvious that our pictures were COVID-19 related. However, at the same time, we also wanted our resulting images to be recognizable in terms of the locations that they originally captured. Thus, we did not want to increase the number of iterations too much. We found that 20 iterations was a happy medium for most of our images. Here are some of the interesting results we found using different styles.
 
-This section should summarize your results and will embed links to documentation to significant outputs. This should document both process and show artistic results. This can include figures, sound files, videos, bitmaps, as appropriate to your generative art idea. Each result should include a brief textual description, and all should be listed below: 
-
-- image files (`.jpg`, `.png` or whatever else is appropriate)
-- audio files (`.wav`, `.mp3`)
-- written text as `.pdf`
+**Original**
+!(https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group6/blob/master/data/bases/beach.jpeg)
 
 ## Discussion
 
