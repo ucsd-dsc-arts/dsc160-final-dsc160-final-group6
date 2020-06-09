@@ -39,24 +39,24 @@ In choosing our model, we decided that using a CNN, or convolutional neural netw
 
 For our images, we first needed to choose a set of base images that would serve as the main content for our project. Since our goal was to represent the effect of this virus on our lives, we purposely selected many public locations that we believed to be the most heavily impacted. In fact, many of the places that we chose to serve as examples of these times have either been completely shut down or are currently limited to a certain number of people as a result of the pandemic. We ultimately chose the following 8 locations/images:
  
-A playground: https://c1.peakpx.com/wallpaper/458/377/246/playground-slide-park-childhood-wallpaper-preview.jpg
-A basketball stadium: https://thenypost.files.wordpress.com/2020/03/march-madness-2020-no-brackets-ncaa.jpg?quality=80&strip=all&w=978&h=652
-A testing center: https://www.lalenguacaribe.co/wp-content/uploads/2020/06/1140-walmart-testing-site-esp.jpg
-A casino:
+- A playground: https://c1.peakpx.com/wallpaper/458/377/246/playground-slide-park-childhood-wallpaper-preview.jpg
+- A basketball stadium: https://thenypost.files.wordpress.com/2020/03/march-madness-2020-no-brackets-ncaa.jpg?quality=80&strip=all&w=978&h=652
+- A testing center: https://www.lalenguacaribe.co/wp-content/uploads/2020/06/1140-walmart-testing-site-esp.jpg
+- A casino:
 https://ewscripps.brightspotcdn.com/dims4/default/7ed0b88/2147483647/strip/true/crop/1848x970+0+112/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F23%2F03%2F0ca13ba64bdcb9d89e07781e7326%2Fscreen-shot-2020-02-19-at-6.53.13%20PM.png 
-A grocery store: https://www.galesburg.com/storyimage/LG/20200316/NEWS/200319835/EP/1/1/EP-200319835.jpg 
-The beach: https://media2.s-nbcnews.com/i/newscms/2020_18/3328241/200428-packed-beach-los-angeles-times-ew-530p_c7d3b1497fd65bd256dbe964dcf5fbf6.jpg 
-UCSD: https://media-exp1.licdn.com/media-proxy/ext?w=800&h=800&hash=UTMLCo1e5dEMRqk%2FmbpJMCPQ9pw%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6_kAgezBk28-CUrly0qkJDUM3SB3fiNGDqporRNDT2K56IFrCoo1gXeSsFmAQ6EOesSTfoR5C0eYOAN8Iry8A
-The Earth:
+- A grocery store: https://www.galesburg.com/storyimage/LG/20200316/NEWS/200319835/EP/1/1/EP-200319835.jpg 
+- The beach: https://media2.s-nbcnews.com/i/newscms/2020_18/3328241/200428-packed-beach-los-angeles-times-ew-530p_c7d3b1497fd65bd256dbe964dcf5fbf6.jpg 
+- UCSD: https://media-exp1.licdn.com/media-proxy/ext?w=800&h=800&hash=UTMLCo1e5dEMRqk%2FmbpJMCPQ9pw%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6_kAgezBk28-CUrly0qkJDUM3SB3fiNGDqporRNDT2K56IFrCoo1gXeSsFmAQ6EOesSTfoR5C0eYOAN8Iry8A
+- The Earth:
 https://www.fr.de/bilder/2020/03/26/13629149/1757522012-feu_erde_2_270320-MpR4Vl6Y6ec.jpg
 
-	For our style images, we chose several different artistic representations of the COVID-19 virus and of antibodies. We wanted our style images to capture all sorts of different shapes and textures from a variety of representations that we found. This would allow us to visualize numerous effects on the final images and to generate a plethora of unique stylized photos of known and recognizable locations. As such, we ultimately chose the following 4 images:
+For our style images, we chose several different artistic representations of the COVID-19 virus and of antibodies. We wanted our style images to capture all sorts of different shapes and textures from a variety of representations that we found. This would allow us to visualize numerous effects on the final images and to generate a plethora of unique stylized photos of known and recognizable locations. As such, we ultimately chose the following 4 images:
 
-‘cv’:
+- ‘cv’:
 https://images.unsplash.com/photo-1584118624012-df056829fbd0?ixlib=rb-1.2.1
-‘virus’: https://www.metrowestdailynews.com/storyimage/WL/20200326/NEWS/200328104/AR/0/AR-200328104.jpg
-‘virus2’: https://img1.wsimg.com/isteam/ip/e9ad0ed6-9c30-45df-9f36-1877fa6e7716/hd%20image.jpg
-‘antibodies’: https://foolde-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/GettyImages-516629150.jpg
+- ‘virus’: https://www.metrowestdailynews.com/storyimage/WL/20200326/NEWS/200328104/AR/0/AR-200328104.jpg
+- ‘virus2’: https://img1.wsimg.com/isteam/ip/e9ad0ed6-9c30-45df-9f36-1877fa6e7716/hd%20image.jpg
+- ‘antibodies’: https://foolde-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/GettyImages-516629150.jpg
 
 ## Code
 
