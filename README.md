@@ -42,8 +42,7 @@ For our images, we first needed to choose a set of base images that would serve 
 - A playground: https://c1.peakpx.com/wallpaper/458/377/246/playground-slide-park-childhood-wallpaper-preview.jpg
 - A basketball stadium: https://thenypost.files.wordpress.com/2020/03/march-madness-2020-no-brackets-ncaa.jpg?quality=80&strip=all&w=978&h=652
 - A testing center: https://www.lalenguacaribe.co/wp-content/uploads/2020/06/1140-walmart-testing-site-esp.jpg
-- A casino:
-https://ewscripps.brightspotcdn.com/dims4/default/7ed0b88/2147483647/strip/true/crop/1848x970+0+112/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F23%2F03%2F0ca13ba64bdcb9d89e07781e7326%2Fscreen-shot-2020-02-19-at-6.53.13%20PM.png 
+- A casino: https://ewscripps.brightspotcdn.com/dims4/default/7ed0b88/2147483647/strip/true/crop/1848x970+0+112/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F23%2F03%2F0ca13ba64bdcb9d89e07781e7326%2Fscreen-shot-2020-02-19-at-6.53.13%20PM.png 
 - A grocery store: https://www.galesburg.com/storyimage/LG/20200316/NEWS/200319835/EP/1/1/EP-200319835.jpg 
 - The beach: https://media2.s-nbcnews.com/i/newscms/2020_18/3328241/200428-packed-beach-los-angeles-times-ew-530p_c7d3b1497fd65bd256dbe964dcf5fbf6.jpg 
 - UCSD: https://media-exp1.licdn.com/media-proxy/ext?w=800&h=800&hash=UTMLCo1e5dEMRqk%2FmbpJMCPQ9pw%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6_kAgezBk28-CUrly0qkJDUM3SB3fiNGDqporRNDT2K56IFrCoo1gXeSsFmAQ6EOesSTfoR5C0eYOAN8Iry8A
@@ -60,16 +59,9 @@ https://images.unsplash.com/photo-1584118624012-df056829fbd0?ixlib=rb-1.2.1
 
 ## Code
 
-(20 points)
+Our code section consists of our main python script ‘transfer.py’ and an ‘images’ folder. ‘Transfer.py’ is where we execute the style transfer for all the images using a CNN. The images folder contains three separate folders within it: “bases,” “styles,” and “results.” The ‘bases’ folder holds all the main content images such as pictures of the beach, a stadium, etc. The ‘style’ folder holds all of the style images used for the transfer such as pictures of the coronavirus. And lastly, the ‘results’ folder is where our resulting style-transferred images are stored. Our python script will run through every image in the base folder and generate a unique style-transferred result of that image with every style in the ‘style’ folder. 
 
-This section will link to the various code for your project (stored within this repository). Your code should be executable on datahub, should we choose to replicate your result. This includes code for: 
-
-- code for data acquisition/scraping
-- code for preprocessing
-- training code (if appropriate)
-- generative methods
-
-Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
+The script took a lot of influence from style_transfer_keras.ipynb, which is an implementation of neural style written with TensorFlow. The script initially grabs the base and style images, rescales them and then runs them through VGG19. Subsequently, it then gets the tensor representations of the images. From this, multiple loss functions are then calculated, and during each iteration, the loss is minimized to produce the style-transferred image. Each optimization iteration takes roughly 10 seconds on datahub; since we are running 20 iterations for each image, a style transfer on a single image should take around 3 minutes. Once the style transfer is complete, the resulting image can be seen in the ‘results’ folder with a name of the format: ‘name of base image_name of style image’.
 
 ## Results
 
